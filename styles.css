@@ -1,0 +1,66 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.container {
+    max-width: 20px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: pink;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-me,
+.education,
+.work-experience,
+.skills,
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+}
+
+
+.img-area img {
+    width: 200px;
+}
+.img-area {
+    width: 200px;
+    margin-right: 20px;
+}
